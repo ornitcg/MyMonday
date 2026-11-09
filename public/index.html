@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MyMonday</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand"><span class="logo">▦</span> MyMonday</div>
+    <div class="toolbar">
+      <button id="addGroupBtn" class="primary">+ נושא חדש</button>
+      <input id="search" type="search" placeholder="חיפוש משימה…">
+      <select id="statusFilter">
+        <option value="">כל הסטטוסים</option>
+      </select>
+      <label class="chk"><input type="checkbox" id="hideDone"> הסתר משימות שהושלמו</label>
+    </div>
+  </header>
+
+  <main id="board"></main>
+
+  <div id="statusMenu" class="status-menu" hidden></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
