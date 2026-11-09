@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3d8bff"/>
+      <stop offset="1" stop-color="#7b5cff"/>
+    </linearGradient>
+  </defs>
+  <rect width="40" height="40" rx="10" fill="url(#bg)"/>
+  <!-- three board rows: status pill + task line -->
+  <rect x="8"  y="10" width="8"  height="5" rx="2.5" fill="#00c875"/>
+  <rect x="19" y="10" width="13" height="5" rx="2.5" fill="#fff"/>
+  <rect x="8"  y="17.5" width="8"  height="5" rx="2.5" fill="#fdab3d"/>
+  <rect x="19" y="17.5" width="10" height="5" rx="2.5" fill="#fff" opacity=".85"/>
+  <rect x="8"  y="25" width="8"  height="5" rx="2.5" fill="#fff" opacity=".45"/>
+  <rect x="19" y="25" width="7"  height="5" rx="2.5" fill="#fff" opacity=".7"/>
+</svg>

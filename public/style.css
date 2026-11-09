@@ -25,8 +25,23 @@ body {
   padding: 12px 24px;
   display: flex; flex-wrap: wrap; gap: 16px; align-items: center; justify-content: space-between;
 }
-.brand { font-size: 22px; font-weight: 700; }
-.logo { color: var(--primary); }
+.brand {
+  display: inline-flex; align-items: center; gap: 10px;
+  text-decoration: none; color: var(--text);
+}
+.logo {
+  display: block; border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(91, 110, 255, .35);
+  transition: transform .2s;
+}
+.brand:hover .logo { transform: rotate(-6deg) scale(1.05); }
+.wordmark { font-size: 23px; letter-spacing: -.5px; line-height: 1; }
+.wm-my { font-weight: 300; color: var(--muted); }
+.wm-monday {
+  font-weight: 700;
+  background: linear-gradient(90deg, #3d8bff, #7b5cff);
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
 .toolbar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
 .toolbar input[type=search], .toolbar select {
   padding: 7px 10px; border: 1px solid var(--border); border-radius: 6px; font: inherit;
